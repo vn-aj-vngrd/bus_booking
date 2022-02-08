@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+  background: whitesmoke;
+}
+
+body {
+  background: whitesmoke;
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+  color: #777777;
+}
+
+a {
+  font-size: 14px;
+  color: #ff0000;
+}
+
+div {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+red {
+  font-size: 25px;
+  color: red;
+}
+
+yellow {
+  font-size: 25px;
+  color: gold;
+}
+
+green {
+  font-size: 25px;
+  color: green;
+}
+
+.navbar {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 70px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #000000;
+  font-weight: 650;
+  transition: 0.5s;
+  height: 100%;
+}
+
+.navbar-brand:hover {
+  color: #3b8af2;
+}
+
+.sales {
+  font-size: 13px;
+}
+
+.col-sm {
+  max-height: 2000px;
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-header h3 {
+  font-weight: 650;
+  font-size: 20px;
+}
+
+.booking-form {
+  margin-top: 35px;
+}
+
+.input-field {
+  max-width: 380px;
+  min-width: 200px;
+  background-color: #ffffff;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 7.5px 8px rgba(0, 0, 0, 0.06);
+  margin: auto;
+  width: 50%;
+  margin-bottom: 23px;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.3rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #524141;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-field select {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #524141;
+  font-family: "Poppins", sans-serif;
+  margin-right: 20px;
+}
+
+.input-field input::placeholder {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.btn-book {
+  width: 100px;
+  background-color: #08b162;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 49px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 7.5px 8px rgba(0, 0, 0, 0.06);
+}
+
+.btn-book:hover {
+  background-color: #008145;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 7.5px 8px rgba(0, 0, 0, 0.06);
+}
+
+#down i {
+  color: #acacac;
+  transition: 0.5s;
+}
+#down i:hover {
+  color: #008145;
+}
+@media screen and (min-width: 576px) {
+  #down {
+    display: none;
+    margin-top: 20px;
+  }
+}
+
+#tb {
+  margin: auto;
+  width: 550px !important;
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 7.5px 8px rgba(0, 0, 0, 0.06);
+}
+
+#tb th {
+  color: #0f0e0e;
+  font-size: 13px;
+  font-weight: 602;
+}
+
+#tb td {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.a {
+  background-color: whitesmoke;
+  height: 0;
+}
